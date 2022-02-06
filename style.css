@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Rowdies:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background:  hsl(230, 17%, 14%);
+    font-family: 'Rowdies', cursive;
+}
+.all-content{
+    margin-right: auto;
+    margin-left: auto;
+    width:300px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    position: relative;
+    top: 70px;
+    color: white;
+    padding: 20px;
+    border: 1px solid white;
+    align-items: center;
+}
+img{
+    width: 200px;
+    height: 200px;
+    align-self: center;
+}
+h1{
+    font-size: 23px;
+}
+h2{
+    font-size: 15px;
+    color: rgb(189, 166, 166);
+}
+
+i{
+    cursor: pointer;
+    font-size: 25px;
+    padding: 5px;
+    padding-top: 16px;
+}
+
+.duracao{
+    padding-top: 20px;
+}
+.tempo{
+    justify-content: space-between;
+    flex-direction: row;
+    display: flex;
+}
+
+i:hover{
+transform: scale(1.05);
+}
+.barra{
+    width: 200px;
+    height: 10px;
+    border: 2px solid rgb(129, 114, 114);
+    border-radius: 5px;
+    position: relative;
+    align-items: center;
+display: flex;
+justify-content: flex-start;
+border-bottom-left-radius: 0px;
+border-top-left-radius: 0px;
+}
+progress{
+    height: 10px;
+    width: 0;
+    
+    
+}
+.ponto{
+    width: 20px;
+    height: 20px;
+    background: white;
+    border-radius: 50%;
+}
+
+#play{
+    font-family: 130px;
+    display: none;
+   
+}
